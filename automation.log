@@ -1,0 +1,225 @@
+0    INFO  2016-11-25 15:10:13 com.inmind.restful.testcases.Question *****************Test suit: Question*****************
+842  INFO  2016-11-25 15:10:14 com.inmind.restful.testcases.Question *****************Class: Get Question Started*****************
+944  INFO  2016-11-25 15:10:14 com.inmind.restful.testcases.Question *****************Test case: Get Question List Ended*****************
+948  INFO  2016-11-25 15:10:14 com.inmind.restful.testcases.Question *****************Test case: Get Question List with No Cookie Started*****************
+980  INFO  2016-11-25 15:10:14 com.inmind.restful.testcases.Question *****************Test case: Get Question with Wrong Auth List Ended*****************
+984  INFO  2016-11-25 15:10:14 com.inmind.restful.testcases.Question *****************Test case: Get Question List with No Cookie Started*****************
+1013 INFO  2016-11-25 15:10:14 com.inmind.restful.testcases.Question *****************Test case: Get Question with Wrong Auth List Ended*****************
+1015 INFO  2016-11-25 15:10:14 com.inmind.restful.testcases.Question *****************Test case: Get Question by task code Started*****************
+1048 INFO  2016-11-25 15:10:14 com.inmind.restful.testcases.Question *****************Test case: Get Question By Task Code Ended*****************
+1052 INFO  2016-11-25 15:10:14 com.inmind.restful.testcases.Question *****************Test case: Get Question by task code with Bad cookie Started*****************
+1081 INFO  2016-11-25 15:10:14 com.inmind.restful.testcases.Question *****************Test case: Get Question By Task Code with Bad cookie Ended*****************
+1085 INFO  2016-11-25 15:10:14 com.inmind.restful.testcases.Question *****************Test case: Get Question by task code with no cookie Started*****************
+1116 INFO  2016-11-25 15:10:14 com.inmind.restful.testcases.Question *****************Test case: Get Question By Task Code with no cookie Ended*****************
+1119 INFO  2016-11-25 15:10:14 com.inmind.restful.testcases.Question *****************Test case: Post Question add Started*****************
+1143 INFO  2016-11-25 15:10:14 com.inmind.restful.testcases.Question Post request body is:{
+  "type": 1,
+  "description": "Test from zhao",
+  "options": "",
+  "title": "Zhao testing",
+  "required": 0,
+  "createdBy": 3,
+  "updatedBy": 3,
+  "createdAt": "2016-11-10T02:40:34.865Z",
+  "updatedAt": "2016-11-10T02:40:34.865Z",
+  "referType": 1,
+  "deleted": 0
+}
+1218 INFO  2016-11-25 15:10:14 com.inmind.restful.testcases.Question Post Question Add's response body is: com.inmind.http.APIResponse@126945f9
+2259 INFO  2016-11-25 15:10:15 com.inmind.restful.testcases.Question *****************Test case: Post Question add Ended*****************
+2262 INFO  2016-11-25 15:10:15 com.inmind.restful.testcases.Question *****************Test case: Post Question add Started*****************
+2272 INFO  2016-11-25 15:10:15 com.inmind.restful.testcases.Question Post request body is:{
+  "type": 1,
+  "description": df"Test from zhao",
+  "options": "",
+  "title": "Zhao testing",
+  "required": 0,
+  "createdBy": 3,
+  "updatedBy": 3,
+  "createdAt": "2016-11-10T02:40:34.865Z",
+  "updatedAt": "2016-11-10T02:40:34.865Z",
+  "referType": 1,
+  "deleted": 0
+}
+2304 INFO  2016-11-25 15:10:15 com.inmind.restful.testcases.Question Post Question Add's response body is: com.inmind.http.APIResponse@906d29b
+2306 INFO  2016-11-25 15:10:15 com.inmind.restful.testcases.Question *****************Test case: Post Question add Ended*****************
+2308 INFO  2016-11-25 15:10:15 com.inmind.restful.testcases.Question *****************Test case: Post Question add Started*****************
+2320 INFO  2016-11-25 15:10:15 com.inmind.restful.testcases.Question Post request body is:{
+  "type": 1,
+  "description": "Test from zhao",
+  "options": "",
+  "title": "Zhao testing",
+  "required": 0,
+  "createdBy": 3,
+  "updatedBy": 3,
+  "createdAt": "2016-11-10T02:40:34.865Z",
+  "updatedAt": "2016-11-10T02:40:34.865Z",
+  "referType": 1,
+  "deleted": 0
+}
+2344 INFO  2016-11-25 15:10:15 com.inmind.restful.testcases.Question Post Question Add's response body is: com.inmind.http.APIResponse@59252cb6
+2357 INFO  2016-11-25 15:10:15 com.inmind.restful.testcases.Question *****************Test case: Post Question add Ended*****************
+2360 INFO  2016-11-25 15:10:15 com.inmind.restful.testcases.Question *****************Test case: Post Question add Started*****************
+2372 INFO  2016-11-25 15:10:15 com.inmind.restful.testcases.Question Post request body is:{
+  "type": 1,
+  "description":"Test from zhao",
+  "options": "",
+  "deleted": 0
+}
+2408 INFO  2016-11-25 15:10:15 com.inmind.restful.testcases.Question Post Question Add's response body is: com.inmind.http.APIResponse@ebb6851
+2409 INFO  2016-11-25 15:10:15 com.inmind.restful.testcases.Question *****************Test case: Post Question add Ended*****************
+2411 INFO  2016-11-25 15:10:15 com.inmind.restful.testcases.Question *****************Test case: Post Question add Started*****************
+2424 INFO  2016-11-25 15:10:15 com.inmind.restful.testcases.Question Post request body is:{
+  "type": 1,
+  "description": "Test from zhao",
+  "options": "",
+  "title": "Zhao testing",
+  "required": 0,
+  "createdBy": 3,
+  "updatedBy": 3,
+  "createdAt": "2016-11-10T02:40:34.865Z",
+  "updatedAt": "2016-11-10T02:40:34.865Z",
+  "referType": 1,
+  "deleted": 0
+}
+2447 INFO  2016-11-25 15:10:15 com.inmind.restful.testcases.Question Post Question Add's response body is: com.inmind.http.APIResponse@7c1e2a2d
+2457 INFO  2016-11-25 15:10:15 com.inmind.restful.testcases.Question *****************Test case: Post Question add Ended*****************
+2460 INFO  2016-11-25 15:10:15 com.inmind.restful.testcases.Question *****************Test case: Post Question Delete Started*****************
+2470 INFO  2016-11-25 15:10:15 com.inmind.restful.testcases.Question Deleting the record which id=123 in the DB
+2489 INFO  2016-11-25 15:10:15 com.inmind.restful.testcases.Question Executing the sql statement:INSERT INTO automind_test.question(id, title, refer_type, `type`, required, `options`, description, deleted, created_by, updated_by, created_at, updated_at)VALUES(123, 'zhao test', 0, 0, 0, '', '', 0, 0, 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+2583 INFO  2016-11-25 15:10:16 com.inmind.restful.testcases.Question The reponse body is: {
+  "_body" : [ {
+    "createdAt" : 1479967900000,
+    "deleted" : 0,
+    "updatedBy" : 1,
+    "createdBy" : 1,
+    "options" : "",
+    "description" : "Test from zhao",
+    "id" : 2,
+    "type" : 1,
+    "updatedAt" : 1479967900000
+  }, {
+    "createdAt" : 1480057815000,
+    "deleted" : 0,
+    "updatedBy" : 0,
+    "createdBy" : 0,
+    "options" : "",
+    "referType" : 0,
+    "description" : "",
+    "id" : 123,
+    "title" : "zhao test",
+    "type" : 0,
+    "required" : 0,
+    "updatedAt" : 1480057815000
+  }, {
+    "createdAt" : 1479968017000,
+    "deleted" : 0,
+    "updatedBy" : 1,
+    "createdBy" : 1,
+    "options" : "",
+    "description" : "Test from zhao",
+    "id" : 125,
+    "type" : 1,
+    "updatedAt" : 1479968017000
+  }, {
+    "createdAt" : 1479969135000,
+    "deleted" : 0,
+    "updatedBy" : 1,
+    "createdBy" : 1,
+    "options" : "",
+    "description" : "Test from zhao",
+    "id" : 127,
+    "type" : 1,
+    "updatedAt" : 1479969135000
+  }, {
+    "createdAt" : 1479969634000,
+    "deleted" : 0,
+    "updatedBy" : 1,
+    "createdBy" : 1,
+    "options" : "",
+    "description" : "Test from zhao",
+    "id" : 129,
+    "type" : 1,
+    "updatedAt" : 1479969634000
+  }, {
+    "createdAt" : 1479970036000,
+    "deleted" : 0,
+    "updatedBy" : 1,
+    "createdBy" : 1,
+    "options" : "",
+    "description" : "Test from zhao",
+    "id" : 131,
+    "type" : 1,
+    "updatedAt" : 1479970036000
+  }, {
+    "createdAt" : 1479974863000,
+    "deleted" : 0,
+    "updatedBy" : 1,
+    "createdBy" : 1,
+    "options" : "",
+    "description" : "Test from zhao",
+    "id" : 133,
+    "type" : 1,
+    "updatedAt" : 1479974863000
+  }, {
+    "createdAt" : 1479976842000,
+    "deleted" : 0,
+    "updatedBy" : 1,
+    "createdBy" : 1,
+    "options" : "",
+    "description" : "Test from zhao",
+    "id" : 135,
+    "type" : 1,
+    "updatedAt" : 1479976842000
+  }, {
+    "createdAt" : 1480057815000,
+    "deleted" : 0,
+    "updatedBy" : 1,
+    "createdBy" : 1,
+    "options" : "",
+    "description" : "Test from zhao",
+    "id" : 137,
+    "type" : 1,
+    "updatedAt" : 1480057815000
+  } ],
+  "_status" : 200,
+  "_msg" : ""
+}
+2583 INFO  2016-11-25 15:10:16 com.inmind.restful.testcases.Question *****************Test case: Post Question Delete Ended*****************
+2585 INFO  2016-11-25 15:10:16 com.inmind.restful.testcases.Question *****************Test case: Post Question Delete with Bad Cookie Started*****************
+2594 INFO  2016-11-25 15:10:16 com.inmind.restful.testcases.Question Deleting the record which id=123 in the DB
+2615 INFO  2016-11-25 15:10:16 com.inmind.restful.testcases.Question Executing the sql statement:INSERT INTO question(id, title, refer_type, `type`, required, `options`, description, deleted, created_by, updated_by, created_at, updated_at)VALUES(123, 'zhao test', 0, 0, 0, '', '', 0, 0, 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+2663 INFO  2016-11-25 15:10:16 com.inmind.restful.testcases.Question *****************Test case: Post Question Delete with Bad Cookie body Ended*****************
+2666 INFO  2016-11-25 15:10:16 com.inmind.restful.testcases.Question *****************Test case: Post Question Delete with Bad Element Started*****************
+2682 INFO  2016-11-25 15:10:16 com.inmind.restful.testcases.Question Deleting the record which id=123 in the DB
+2719 INFO  2016-11-25 15:10:16 com.inmind.restful.testcases.Question Executing the sql statement:INSERT INTO automind_test.question(id, title, refer_type, `type`, required, `options`, description, deleted, created_by, updated_by, created_at, updated_at)VALUES(123, 'zhao test', 0, 0, 0, '', '', 0, 0, 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+2812 INFO  2016-11-25 15:10:16 com.inmind.restful.testcases.Question Deleting the record which id=123 in the DB
+2843 INFO  2016-11-25 15:10:16 com.inmind.restful.testcases.Question *****************Test case: Post Question Delete with Bad Element Ended*****************
+2846 INFO  2016-11-25 15:10:16 com.inmind.restful.testcases.Question *****************Test case: Post Question Delete eith Bad Request Started*****************
+2856 INFO  2016-11-25 15:10:16 com.inmind.restful.testcases.Question Executing the sql statement:INSERT INTO automind_test.question(id, title, refer_type, `type`, required, `options`, description, deleted, created_by, updated_by, created_at, updated_at)VALUES(123, 'zhao test', 0, 0, 0, '', '', 0, 0, 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+2910 INFO  2016-11-25 15:10:16 com.inmind.restful.testcases.Question *****************Test case: Post Question Delete with Bad Request body Ended*****************
+2913 INFO  2016-11-25 15:10:16 com.inmind.restful.testcases.Question *****************Test case: Post Question Delete with Missing Element Started*****************
+2928 INFO  2016-11-25 15:10:16 com.inmind.restful.testcases.Question Deleting the record which id=123 in the DB
+2957 INFO  2016-11-25 15:10:16 com.inmind.restful.testcases.Question Executing the sql statement:INSERT INTO automind_test.question(id, title, refer_type, `type`, required, `options`, description, deleted, created_by, updated_by, created_at, updated_at)VALUES(123, 'zhao test', 0, 0, 0, '', '', 0, 0, 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+3040 INFO  2016-11-25 15:10:16 com.inmind.restful.testcases.Question Deleting the record which id=123 in the DB
+3056 INFO  2016-11-25 15:10:16 com.inmind.restful.testcases.Question *****************Test case: Post Question Delete with Missing Element Ended*****************
+3058 INFO  2016-11-25 15:10:16 com.inmind.restful.testcases.Question *****************Test case: Post Question Delete with Bad Cookie Started*****************
+3066 INFO  2016-11-25 15:10:16 com.inmind.restful.testcases.Question Executing the sql statement:INSERT INTO question(id, title, refer_type, `type`, required, `options`, description, deleted, created_by, updated_by, created_at, updated_at)VALUES(123, 'zhao test', 0, 0, 0, '', '', 0, 0, 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+3120 INFO  2016-11-25 15:10:16 com.inmind.restful.testcases.Question *****************Test case: Post Question Delete with Bad Cookie body Ended*****************
+3122 INFO  2016-11-25 15:10:16 com.inmind.restful.testcases.Question *****************Test case: Post Question Update Started*****************
+3122 INFO  2016-11-25 15:10:16 com.inmind.restful.testcases.Question Executing the sql statement:INSERT INTO question(id, title, refer_type, `type`, required, `options`, description, deleted, created_by, updated_by, created_at, updated_at)VALUES(123, 'zhao test', 0, 0, 0, '', '', 0, 0, 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+4252 INFO  2016-11-25 15:10:17 com.inmind.restful.testcases.Question *****************Test case: Post Question Update Ended*****************
+4254 INFO  2016-11-25 15:10:17 com.inmind.restful.testcases.Question *****************Test case: Post Question Update with Bad Body Started*****************
+4292 INFO  2016-11-25 15:10:17 com.inmind.restful.testcases.Question *****************Test case: Post Question Update with Bad Element Ended*****************
+4293 INFO  2016-11-25 15:10:17 com.inmind.restful.testcases.Question *****************Test case: Post Question Update with Bad Cookie Started*****************
+4304 INFO  2016-11-25 15:10:17 com.inmind.restful.testcases.Question Executing the sql statement:INSERT INTO question(id, title, refer_type, `type`, required, `options`, description, deleted, created_by, updated_by, created_at, updated_at)VALUES(123, 'zhao test', 0, 0, 0, '', '', 0, 0, 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+4373 INFO  2016-11-25 15:10:17 com.inmind.restful.testcases.Question *****************Test case: Post Question Update with Bad Cookie Ended*****************
+4375 INFO  2016-11-25 15:10:17 com.inmind.restful.testcases.Question *****************Test case: Post Question Update with Bad Element Started*****************
+4413 INFO  2016-11-25 15:10:17 com.inmind.restful.testcases.Question *****************Test case: Post Question Update with Bad Element Ended*****************
+4415 INFO  2016-11-25 15:10:17 com.inmind.restful.testcases.Question *****************Test case: Post Question Update with Missing Element Started*****************
+4450 INFO  2016-11-25 15:10:17 com.inmind.restful.testcases.Question *****************Test case: Post Question Update with Missing Element Ended*****************
+4452 INFO  2016-11-25 15:10:17 com.inmind.restful.testcases.Question *****************Test case: Post Question Update with no Cookie Started*****************
+4462 INFO  2016-11-25 15:10:17 com.inmind.restful.testcases.Question Deleting the record
+4482 INFO  2016-11-25 15:10:17 com.inmind.restful.testcases.Question Executing the sql statement:INSERT INTO question(id, title, refer_type, `type`, required, `options`, description, deleted, created_by, updated_by, created_at, updated_at)VALUES(123, 'zhao test', 0, 0, 0, '', '', 0, 0, 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+4531 INFO  2016-11-25 15:10:17 com.inmind.restful.testcases.Question *****************Test case: Post Question Update with no Cookie Ended*****************
+4532 INFO  2016-11-25 15:10:17 com.inmind.restful.testcases.Question *****************Class:Question Ended*****************

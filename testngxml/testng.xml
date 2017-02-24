@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Question">
+	<test name="Question">
+		<groups>
+			<run>
+				<include name="Get_Question_List"/>				
+			</run>
+		</groups>
+		<classes>
+			<class name="com.inmind.restful.testcases.Question" />
+		</classes>
+	</test>
+</suite>

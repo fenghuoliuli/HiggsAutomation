@@ -1,0 +1,16 @@
+{
+  "onPro":0,
+  "devTech":"项目技术",
+  "name":"项目1",
+  "org":
+  {
+    "id":49901,
+    "name":"百度糯米",
+    "displayName":"百度糯米"
+  },
+  "position":"测试开发",
+  "description":"项目描述",
+  "startedAt":"2010-02-01T08:00:00+08:00",
+  "endedAt":"2012-03-01T08:00:00+08:00",
+  "resumeId":10001329
+}

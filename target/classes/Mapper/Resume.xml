@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.inmind.People.dao.ResumeDao">
+
+    <select id="selectResumeBasic" resultMap="com.inmind.mybatis.mapper.ResumePOMapper.BaseResultMap">
+        SELECT
+            *
+        FROM
+            resume a
+        WHERE a.id=#{resumeId}
+        LIMIT 1
+    </select>
+    <select id="selectEducationById" resultMap="com.inmind.mybatis.mapper.ResumeEducationPOMapper.BaseResultMap">
+        SELECT
+        *
+        FROM
+        resume_education a
+        WHERE a.resume_id=#{resumeId}
+        LIMIT 1
+    </select>
+
+    <select id="selectExperienceById" resultMap="com.inmind.mybatis.mapper.ResumeExperiencePOMapper.BaseResultMap">
+        SELECT
+        *
+        FROM
+        resume_experience a
+        WHERE a.resume_id=#{resumeId}
+        LIMIT 1
+    </select>
+    <select id="selectLangById" resultMap="com.inmind.mybatis.mapper.ResumeLangPOMapper.BaseResultMap">
+        SELECT
+        *
+        FROM
+        resume_lang a
+        WHERE a.resume_id=#{resumeId}
+        LIMIT 1
+    </select>
+    <select id="selectProjectById" resultMap="com.inmind.mybatis.mapper.ResumeLangPOMapper.BaseResultMap">
+        SELECT
+        *
+        FROM
+        resume_project a
+        WHERE a.resume_id=#{resumeId}
+        LIMIT 1
+    </select>
+</mapper>

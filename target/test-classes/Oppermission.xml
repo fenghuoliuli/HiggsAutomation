@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <PostOppermission>
+        <roleid>2</roleid>
+        <module>3</module>
+        <oppermissionid>71,72,73</oppermissionid>
+    </PostOppermission>
+    <GetOppermission>
+    	<roleid>3</roleid>
+    	<module>2</module>
+    </GetOppermission>
+</data>

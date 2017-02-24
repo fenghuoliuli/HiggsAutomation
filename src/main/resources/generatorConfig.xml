@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+      <classPathEntry
+              location="/Users/zhao/.m2/repository/mysql/mysql-connector-java/6.0.5/mysql-connector-java-6.0.5.jar"/>
+    <context id="my" targetRuntime="MyBatis3">
+    
+
+        <property name="autoDelimitKeywords" value="false"/>
+        <!-- 生成的Java文件的编码 -->
+        <property name="javaFileEncoding" value="UTF-8"/>
+        <!-- 格式化java代码 -->
+        <property name="javaFormatter" value="org.mybatis.generator.api.dom.DefaultJavaFormatter"/>
+        <!-- 格式化XML代码 -->
+        <property name="xmlFormatter" value="org.mybatis.generator.api.dom.DefaultXmlFormatter"/>
+
+        <plugin type="org.mybatis.generator.plugins.RowBoundsPlugin"/>
+
+
+        <commentGenerator>
+            <property name="suppressDate" value="true"/>
+        </commentGenerator>
+
+        <jdbcConnection driverClass="com.mysql.cj.jdbc.Driver"
+                        connectionURL="jdbc:mysql://172.16.52.119:4306/am_dev?useUnicode=true&amp;characterEncoding=UTF-8&amp;allowMultiQueries=true&amp;useSSL=true"
+                        userId="amdev"
+                        password="amdev@123">
+        </jdbcConnection>
+        <!--<javaTypeResolver type="org.mybatis.generator.plugins.HBatisJavaTypeResolver"/>-->
+
+        <!--<javaTypeResolver type="com.inmind.automind.tools.AutoMindJavaTypeResolver">-->
+        <!--&lt;!&ndash;<property name="forceBigDecimals" value="true"/>&ndash;&gt;-->
+        <!--</javaTypeResolver>-->
+
+        <javaTypeResolver>  
+            <property name="forceBigDecimals" value="false"/>  
+        </javaTypeResolver>
+
+        <javaModelGenerator targetPackage="com.inmind.mybatis.entity"                        
+                            targetProject="src/main/java">
+            <property name="enableSubPackages" value="true"/>
+            <property name="trimStrings" value="true"/>
+        </javaModelGenerator>
+
+
+        <sqlMapGenerator targetPackage="com.inmind.mybatis.mapper"
+                         targetProject="src/main/resources">
+            <property name="enableSubPackages" value="true"/>
+        </sqlMapGenerator>
+
+        <javaClientGenerator type="MIXEDMAPPER" targetPackage="com.inmind.mybatis.mapper"
+                             targetProject="src/main/java">
+            <property name="enableSubPackages" value="true"/>
+        </javaClientGenerator>
+
+        <table tableName="address" domainObjectName="AddressPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="account" domainObjectName="AccountPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="account_config" domainObjectName="AccountConfigPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="account_function" domainObjectName="AccountFunctinoPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="account_industry" domainObjectName="AccountIndustryPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="account_location" domainObjectName="AccountLocationPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="account_permission" domainObjectName="AccountPermissionPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="account_role" domainObjectName="AccountRolePO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="attachment" domainObjectName="AttachmentPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="attachment_ref" domainObjectName="AttachmentRefPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="department" domainObjectName="DepartmentPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="department_resume" domainObjectName="DepartmentResumePO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="dict" domainObjectName="DictPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="dict_relation" domainObjectName="DictRelationPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="event_trigger" domainObjectName="EventTriggerPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="favorite" domainObjectName="FavoritePO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="favorite_tag" domainObjectName="FavoriteTagPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="favorite_tag_relation" domainObjectName="FavoriteTagRelationPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="id_sequence" domainObjectName="IdSequencePO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="location" domainObjectName="LocationPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="org_dev_contract" domainObjectName="OrgDevContract">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="org_brand" domainObjectName="OrgBrandPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="org_contact_way" domainObjectName="OrgContactWayPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="org_history" domainObjectName="OrgHistoryPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="org_shareholder" domainObjectName="OrgShareholderPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="org_stock" domainObjectName="OrgStockPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="organization" domainObjectName="OrganizationPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="people" domainObjectName="PeoplePO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="private_resume" domainObjectName="PrivateResumePO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="project" domainObjectName="ProjectPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="project_assign" domainObjectName="ProjectAssignPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="project_contacts" domainObjectName="ProjectContactsPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="project_target" domainObjectName="ProjectTargetPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="project_offer" domainObjectName="ProjectOfferPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="project_interview" domainObjectName="ProjectInterviewPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="project_warranty" domainObjectName="ProjectWarrantyPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="project_code_stat" domainObjectName="ProjectCodeStatPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="question" domainObjectName="QuestionPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="remark" domainObjectName="RemarkPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="role" domainObjectName="RolePO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="school" domainObjectName="SchoolPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="tag" domainObjectName="TagPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="task" domainObjectName="TaskPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="task_append_info" domainObjectName="TaskAppendInfoPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="task_chain" domainObjectName="TaskChainPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="task_code" domainObjectName="TaskCodePO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="task_engage" domainObjectName="TaskEngagePO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="task_face_interview" domainObjectName="TaskFaceInterviewPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="task_group" domainObjectName="TaskGroupPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="task_handover" domainObjectName="TaskHandoverPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="task_interview" domainObjectName="TaskInterviewPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="task_offer" domainObjectName="TaskOfferPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="task_operate_show" domainObjectName="TaskOperateShowPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="task_owner" domainObjectName="TaskOwnerPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="task_property" domainObjectName="TaskPropertyPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="task_recommend_report" domainObjectName="TaskRecommendReportPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="task_refer" domainObjectName="TaskReferPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="task_related_interview" domainObjectName="TaskRelatedInterviewPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="task_question_form" domainObjectName="TaskQuestionFormPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="task_remind" domainObjectName="TaskRemindPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="task_remark" domainObjectName="TaskRemarkPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="task_rule" domainObjectName="TaskRulePO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="task_schedule" domainObjectName="TaskSchedulePO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="task_target" domainObjectName="TaskTargetPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="task_target_relate" domainObjectName="TaskTargetRelatePO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="task_tree" domainObjectName="TaskTreePO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="task_custom" domainObjectName="TaskCustomPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="task_custom_assign" domainObjectName="TaskCustomAssignPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="task_custom_related " domainObjectName="TaskCustomRelatedPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="org_dept" domainObjectName="OrgDeptPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="task_face_assist_account" domainObjectName="TaskFaceAssistAccountPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="task_face_assist_task" domainObjectName="TaskFaceAssistTaskPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="resume_contribution" domainObjectName="ResumeContributionPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="resume" domainObjectName="ResumePO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="resume_education" domainObjectName="ResumeEducationPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="resume_experience" domainObjectName="ResumeExperiencePO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="resume_history" domainObjectName="ResumeHistoryPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="resume_kpi" domainObjectName="ResumeKpiPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="resume_lang" domainObjectName="ResumeLangPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="resume_project" domainObjectName="ResumeProjectPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="account_config" domainObjectName="AccountConfigPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="external_job" domainObjectName="ExternalJobPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="js_op" domainObjectName="JsOpPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="access_log" domainObjectName="AccessLogPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="special_date" domainObjectName="SpecialDatePO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="position" domainObjectName="PositionPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="job_search_status" domainObjectName="JobSearchStatusPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="t_remind" domainObjectName="TRemindPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="t_task" domainObjectName="TTaskPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="t_task_chain" domainObjectName="TTaskChainPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="t_task_property" domainObjectName="TTaskPropertyPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="t_task_group" domainObjectName="TTaskGroupPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="t_task_rule" domainObjectName="TTaskRulePO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="question_form" domainObjectName="QuestionFormPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="recommend_report" domainObjectName="RecommendReportPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="question_group" domainObjectName="QuestionGroupPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+
+        <table tableName="operation_log" domainObjectName="OperationLogPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="operation_config_column" domainObjectName="OperationConfigColumnPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+
+        <table tableName="operation_config" domainObjectName="OperationConfigPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="contact_record" domainObjectName="ContactRecordPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="call_log" domainObjectName="CallLogPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="mail" domainObjectName="MailPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="mail_account" domainObjectName="MailAccountPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="mail_address" domainObjectName="MailAddressPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="mail_log" domainObjectName="MailLogPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="contact" domainObjectName="ContactPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="mail_attachment" domainObjectName="MailAttachmentPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="mail_receive_log" domainObjectName="MailReceiveLogPO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="msg_template" domainObjectName="MsgTemplatePO">
+            <generatedKey column="id" identity="true" sqlStatement="MySql" type="post"/>
+        </table>
+        <table tableName="index_log" domainObjectName="IndexLogPO">
+        </table>
+
+
+    </context>
+</generatorConfiguration>

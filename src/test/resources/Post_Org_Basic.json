@@ -1,0 +1,38 @@
+{
+  "orgId": 21,
+  "name": "Test for Automation",
+  "englishName": "xxx",
+	"simpleName": "公司简称",
+	"aliases": "别名",
+	"aliaseList":["小米","大米"],
+	"natureCode":"_2",
+	"empScale":"_5",
+	"empMeanSalary":"_7",
+	"finacingStatus":"_8",
+	"finacingAmount":2000,
+	"siteUrl":"公司官网",
+	"imgUrls":"",
+	"description":"公司简介",
+	
+	"weiboUrl":"微博",
+	"wxPublicNo":"微信公众号",
+	"linkedinUrl":"LinkedIn",
+	"owner":{
+	  "id":666
+	},
+	"legalPerson":"法人",
+	"turnover":1000,
+	"registedCapital":1000,
+	"registedAt":"2016-11-21T07:01:27.473Z",
+	"registedNo":"注册号",
+	"orgCode":"组织结构代码",
+	"licenseNo":"营业执照号",
+	"registedAuthority":"登记机关",
+	"parent":{
+	  "id":666,
+		"displayName":"总公司名称",
+		"reasonType":1,
+		"reason":"手动输入的原因"
+	}
+	
+}

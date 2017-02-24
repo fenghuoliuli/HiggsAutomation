@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Qestion" >
+  <listeners>
+    <listener class-name="com.restfulapi.test.setting.CustomListener" />
+  </listeners>
+  <test name="Question">
+  	<groups>
+		<run>
+			<include name="Get_Question_List"/>
+			<exclude name="Nagtive"/>			
+		</run>
+	</groups>
+    <classes>
+      <class name="com.inmind.restful.testcases.Question"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

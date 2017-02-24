@@ -1,0 +1,196 @@
+{
+  "type": 1,
+  "status": 1,
+  "grade": 1,
+  "title": "自动化测试项目",
+  "orgId": 8,
+  "client":{"id":1,"name":"###"},
+  "attachments":[{
+    "name":"###",
+    "uri":"####"
+  }],
+  "salaryDetail": {"month": 14, "welfares": [], "bonusType": 3, "salaryType": 1},
+  "headcount": 12,
+  "forecastTurnover": 123,
+  "salaryLower": 123,
+  "salaryUpper": 123,
+  "ageLower": 12,
+  "ageUpper": 23,
+  "genderCode": 1,
+  "probationDays": 123,
+  "pauseAt": "2016-12-01",
+  "jobDuty": "####",
+  "jobRequirement": "#####",
+  "workYearsLower": 12,
+  "workYearsUpper": 23,
+  "belongingDepartment": {
+    "id": 2,
+    "name": "技术事业部",
+    "orgId":1
+  },
+  "subCount": 12,
+  "reportTarget": 123,
+  "consultantList": [
+    {
+      "id": 1,
+      "userName": "koth"
+    }
+  ],
+  "contactWindow": {
+    "id": 1,
+    "userName": "koth"
+  },
+  "positionAddressList": [
+    {
+      "id": 17,
+      "locationId":310105,
+      "detail":"陕西路100号"
+    }
+  ],
+  "contactList": [
+    {
+      "id":11,
+      "peopleId":1
+    }
+  ],
+  "contract": {"id":4,
+    "contactList":[{
+      "id":11,
+      "peopleId":1
+
+    }]
+  },
+  "contractInfo": {####},
+  "targetOrgList": [
+    {
+      "id": 8,
+      "name": "小米科技有限责任公司"
+    }
+  ],
+  "positionIndustrialList": [
+    {
+      "code": 1,
+      "name": "金融"
+    },
+    {
+      "code": 2,
+      "name": "银行"
+    }
+  ],
+  "positionFunctionList": [
+    {
+      "code": 216,
+      "name": "稽核/法律/合规"
+    },
+    {
+      "code": 1709,
+      "name": "财务通才"
+    }
+  ],
+  "positionGradeList": [
+    {
+      "code": 1,
+      "name": "专员"
+    },
+    {
+      "code": 2,
+      "name": "主管"
+    }
+  ],
+  "positionHighlightList": [
+    {
+      "code": 100,
+      "name": "补贴"
+    },
+    {
+      "code": 1000,
+      "name": "餐饮补贴"
+    }
+  ],
+  "industrialList": [
+    {
+      "code": 1,
+      "name": "金融"
+    },
+    {
+      "code": 2,
+      "name": "银行"
+    }
+  ],
+  "functionList": [
+    {
+      "code": 216,
+      "name": "稽核/法律/合规"
+    },
+    {
+      "code": 1709,
+      "name": "财务通才"
+    }
+  ],
+  "skillList": [
+    {
+      "code": 1634,
+      "name": "室内设计"
+    },
+    {
+      "code": 1635,
+      "name": "3d模型"
+    }
+  ],
+  "targetOrgTypeList": [
+    {
+      "code": 7004,
+      "name": "阿里系"
+    },
+    {
+      "code": 7005,
+      "name": "谷歌系"
+    }
+  ],
+  "schoolTypeList": [
+    {
+      "code": 1,
+      "name": "教育部直属"
+    },
+    {
+      "code": 2,
+      "name": "211"
+    }
+  ],
+  "degreeList": [
+    {
+      "code": 1,
+      "name": "大专"
+    },
+    {
+      "code": 2,
+      "name": "本科"
+    }
+  ],
+  "majorList": [
+    {
+      "code": 31601,
+      "name": "地球物理学"
+    }
+  ],
+  "certificationList": [
+    {
+      "code": 100,
+      "name": "建筑工程"
+    }
+  ],
+  "langList": [
+    {
+      "code": 1,
+      "name": "上海话"
+    }
+  ],
+  "bdEmployee": {
+    "id": 1,
+    "userName": "koth"
+  },
+  "creator": {
+    "id": 1,
+    "userName": "koth"
+  },
+}

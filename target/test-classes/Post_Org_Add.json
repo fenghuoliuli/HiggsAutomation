@@ -1,0 +1,297 @@
+{
+  "description": "Test for automation",
+  "source": 0,
+  "type": 0,
+  "reason": "Test for Automation",
+  "name": "Test company",
+  "simpleName": "TC",
+  "parent": {
+	"name":"test for automation"
+  },
+  "": 0,
+  "displayName": "Test for Automation",
+  "owner": {
+    "permissions": [
+      {
+        "resType": "Test for Automation",
+        "res": 0,
+        "accessLevel": 0,
+        "actionCode": "Test for Automation"
+      }
+    ],
+    "": 0,
+    "displayName": "Test for Automation",
+    "password": "sdfdf",
+    "chineseName": "测试公司",
+    "nickname": "测试",
+    "email": "22@ll.com",
+    "mobile": "Test for Automation",
+    "passwordReset": 0,
+    "resetPasswordAt": "2016-12-07T06:07:11.179Z",
+    "latestLoginAt": "2016-12-07T06:07:11.179Z",
+    "loginFailTimes": 0,
+    "username": "rtes",
+    "englishName": "fdsa",
+    "status": 0,
+    "roles": [
+      "Test for Automation"
+    ],
+    "createdBy": 0,
+    "updatedBy": 0,
+    "updatedAt": "2016-12-07T06:07:11.179Z",
+    "createdAt": "2016-12-07T06:07:11.179Z"
+  },
+  "aliases": "Test for Automation",
+ 
+  "orgStocks": [
+    {
+
+      "stockExchange": 0,
+      "stockCode": "Test for Automation",
+      "createdBy": 0,
+      "updatedBy": 0,
+      "updatedAt": "2016-12-07T06:07:11.179Z",
+      "createdAt": "2016-12-07T06:07:11.179Z"
+    }
+  ],
+  "orgBrands": [
+    {
+      "description": "Test for Automation",
+      "type": "1",
+      "imgUrl": "Test for Automation",
+      "trademark": "Test for Automation",
+      "siteUrl": "Test for Automation",
+      "title": "Test for Automation",
+      "createdBy": 0,
+      "updatedBy": 0,
+      "updatedAt": "2016-12-07T06:07:11.179Z",
+      "createdAt": "2016-12-07T06:07:11.179Z"
+    }
+  ],
+  "orgContactWays": [
+    {
+      "address": {
+        "location": {
+          "type": "Test for Automation",
+          "level": 0,
+          "name": "Test for Automation",
+          "parent": {},
+          "parentCode": 0,
+          "hot": 0,
+          "children": [
+            {}
+          ],
+          "lat": 0,
+          "lng": 0,
+          "code": 0,
+          "createdBy": 0,
+          "updatedBy": 0,
+          "updatedAt": "2016-12-07T06:07:11.180Z",
+          "createdAt": "2016-12-07T06:07:11.180Z"
+        },
+        "detail": "Test for Automation",
+        "lat": 0,
+        "lng": 0,
+        "updatedAt": "2016-12-07T06:07:11.180Z",
+        "createdAt": "2016-12-07T06:07:11.180Z"
+      },
+      "faxNumber": "Test for Automation",
+      "phoneNumber": "Test for Automation",
+      "createdByAccount": {
+        "permissions": [
+          {
+            "resType": "Test for Automation",
+            "res": 0,
+            "accessLevel": 0,
+            "actionCode": "Test for Automation"
+          }
+        ],
+        "displayName": "Test for Automation",
+        "password": "Test for Automation",
+        "chineseName": "Test for Automation",
+        "nickname": "Test for Automation",
+        "email": "Test for Automation",
+        "mobile": "Test for Automation",
+        "passwordReset": 0,
+        "resetPasswordAt": "2016-12-07T06:07:11.180Z",
+        "latestLoginAt": "2016-12-07T06:07:11.180Z",
+        "loginFailTimes": 0,
+        "username": "Test for Automation",
+        "englishName": "Test for Automation",
+        "status": 0,
+        "roles": [
+          "Test for Automation"
+        ],
+        "createdBy": 0,
+        "updatedBy": 0,
+        "updatedAt": "2016-12-07T06:07:11.180Z",
+        "createdAt": "2016-12-07T06:07:11.180Z"
+      },
+      "email": "Test for Automation",
+      "createdBy": 0,
+      "updatedBy": 0,
+      "updatedAt": "2016-12-07T06:07:11.180Z",
+      "createdAt": "2016-12-07T06:07:11.180Z"
+    }
+  ],
+  "orgHistories": [
+    {
+      "description": "Test for Automation",
+      "linkUrl": "Test for Automation",
+      "timeAt": "2016-12-07T06:07:11.180Z",
+      "title": "Test for Automation",
+      "createdBy": 0,
+      "updatedBy": 0,
+      "updatedAt": "2016-12-07T06:07:11.180Z",
+      "createdAt": "2016-12-07T06:07:11.180Z"
+    }
+  ],
+  "shareholders": [
+    {
+      "holder": 0,
+      "holdRate": 0,
+      "investAmount": 0,
+      "createdBy": 0,
+      "updatedBy": 0,
+      "updatedAt": "2016-12-07T06:07:11.180Z",
+      "createdAt": "2016-12-07T06:07:11.180Z"
+    }
+  ],
+  "shareholdings": [
+    {
+      "holder": 0,
+      "holdRate": 0,
+      "investAmount": 0,
+      "createdBy": 0,
+      "updatedBy": 0,
+      "updatedAt": "2016-12-07T06:07:11.180Z",
+      "createdAt": "2016-12-07T06:07:11.180Z"
+    }
+  ],
+  "orgDepts": [
+    {
+      "name": "Test for Automation",
+
+      "telNo": "Test for Automation",
+      "createdBy": 0,
+      "updatedBy": 0,
+      "updatedAt": "2016-12-07T06:07:11.180Z",
+      "createdAt": "2016-12-07T06:07:11.180Z"
+    }
+  ],
+  "createdByAccount": {
+    "permissions": [
+      {
+        "resType": "Test for Automation",
+        "res": 0,
+        "accessLevel": 0,
+        "actionCode": "Test for Automation"
+      }
+    ],
+    "": 0,
+    "displayName": "Test for Automation",
+    "password": "Test for Automation",
+    "chineseName": "Test for Automation",
+    "nickname": "Test for Automation",
+    "email": "Test for Automation",
+    "mobile": "Test for Automation",
+    "passwordReset": 0,
+    "loginFailTimes": 0,
+    "username": "Test for Automation",
+    "englishName": "Test for Automation",
+    "status": 0,
+    "roles": [
+      "Test for Automation"
+    ],
+    "createdBy": 0,
+    "updatedBy": 0,
+    "updatedAt": "2016-12-07T06:07:11.180Z",
+    "createdAt": "2016-12-07T06:07:11.180Z"
+  },
+  "updatedByAccount": {
+    "permissions": [
+      {
+        "resType": "Test for Automation",
+        "res": 0,
+        "accessLevel": 0,
+        "actionCode": "Test for Automation"
+      }
+    ],
+    "": 0,
+    "displayName": "Test for Automation",
+    "password": "Test for Automation",
+    "chineseName": "Test for Automation",
+    "nickname": "Test for Automation",
+    "email": "Test for Automation",
+    "mobile": "Test for Automation",
+    "passwordReset": 0,
+    "resetPasswordAt": "2016-12-07T06:07:11.180Z",
+    "latestLoginAt": "2016-12-07T06:07:11.180Z",
+    "loginFailTimes": 0,
+    "username": "Test for Automation",
+    "englishName": "Test for Automation",
+    "status": 0,
+    "roles": [
+      "Test for Automation"
+    ],
+    "createdBy": 0,
+    "updatedBy": 0,
+    "updatedAt": "2016-12-07T06:07:11.180Z",
+    "createdAt": "2016-12-07T06:07:11.180Z"
+  },
+  "externalJobs": [
+    {
+      "source": "Test for Automation",
+      "": 0,
+      "salaryLower": 0,
+      "salaryUpper": 0,
+      "location": 0,
+      "locationStr": "Test for Automation",
+      "sourceUrl": "Test for Automation",
+      "pubAt": "2016-12-07T06:07:11.180Z",
+      "pubAtStr": "Test for Automation",
+      "title": "Test for Automation",
+      "updatedAt": "2016-12-07T06:07:11.180Z",
+      "createdAt": "2016-12-07T06:07:11.180Z"
+    }
+  ],
+  "registedAuthority": "Test for Automation",
+  "natureCode": "1",
+  "empScale": "1",
+  "empMeanSalary": "1",
+  "wxPublicNo": "Test for Automation",
+  "facebookUrl": "Test for Automation",
+  "linkedinUrl": "Test for Automation",
+  "weiboUrl": "Test for Automation",
+  "twitterUrl": "Test for Automation",
+  "qccUnique": "Test for Automation",
+  "orgCode": "Test for Automation",
+  "licenseNo": "Test for Automation",
+  "reasonType": 0,
+  "aliasList": [
+    "Test for Automation"
+  ],
+  "imgUrls": "Test for Automation",
+  "imgUrlList": [
+    "Test for Automation"
+  ],
+  "financingDetail": {},
+  "branches": [
+    {}
+  ],
+  "englishName": "Test for Automation",
+  "phoneNo": "Test for Automation",
+  "logoUrl": "Test for Automation",
+  "siteUrl": "Test for Automation",
+  "financingStatus": "1",
+  "financingAmount": 0,
+  "legalPerson": "Test for Automation",
+  "registedCapital": 0,
+  "registedAt": "2016-12-07T06:07:11.180Z",
+  "turnover": 0,
+  "registedNo": "Test for Automation",
+  "createdBy": 0,
+  "updatedBy": 0,
+  "updatedAt": "2016-12-07T06:07:11.180Z",
+  "createdAt": "2016-12-07T06:07:11.180Z"
+}

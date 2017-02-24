@@ -1,0 +1,468 @@
+{
+  "type": 0,
+  "status": 0,
+  "title": "Zhao API Testing",
+  "leaderId": 0,
+  "createdBy": 0,
+  "consultantList": [
+    0
+  ],
+  "contactWindow": 0,
+  "projectAssignList": [
+    {
+      "projectRole": "BD",
+      "ownerId": 0,
+      "id": 0,
+      "createdAt": "2016-11-14T02:20:52.756Z",
+      "updatedAt": "2016-11-14T02:20:52.756Z",
+      "projectId": 0,
+      "projectStatus": "ACCPETED",
+      "dealAt": "2016-11-14T02:20:52.756Z"
+    }
+  ],
+  "taskMode": 0,
+  "id": 0,
+  "createdAt": "2016-11-14T02:20:52.756Z",
+  "updatedAt": "2016-11-14T02:20:52.756Z",
+  "orgId": 0,
+  "addressId": 0,
+  "pauseAt": "2016-11-14T02:20:52.756Z",
+  "salaryDetail": 0,
+  "grade": 0,
+  "organizationObject": {
+    "description": "Zhao API Testing",
+    "type": 0,
+    "source": 0,
+    "owner": {
+      "password": "Zhao API Testing",
+      "status": 0,
+      "roles": [
+        "Zhao API Testing"
+      ],
+      "email": "Zhao API Testing",
+      "chineseName": "Zhao API Testing",
+      "englishName": "Zhao API Testing",
+      "nickname": "Zhao API Testing",
+      "createdBy": 0,
+      "updatedBy": 0,
+      "mobile": "Zhao API Testing",
+      "passwordReset": 0,
+      "resetPasswordAt": "2016-11-14T02:20:52.756Z",
+      "username": "Zhao API Testing",
+      "id": 0,
+      "createdAt": "2016-11-14T02:20:52.756Z",
+      "updatedAt": "2016-11-14T02:20:52.756Z",
+      "latestLoginAt": "2016-11-14T02:20:52.756Z",
+      "latestLoginIp": "Zhao API Testing",
+      "loginFailTimes": 0,
+      "permissions": [
+        {
+          "actionCode": "Zhao API Testing",
+          "resType": "Zhao API Testing",
+          "resId": 0,
+          "accessLevel": 0
+        }
+      ]
+    },
+    "email": "Zhao API Testing",
+    "englishName": "Zhao API Testing",
+    "createdBy": 0,
+    "updatedBy": 0,
+    "ownerId": 0,
+    "id": 0,
+    "simpleName": "Zhao API Testing",
+    "phoneNo": "Zhao API Testing",
+    "logoUrl": "Zhao API Testing",
+    "siteUrl": "Zhao API Testing",
+    "finacingStatus": 0,
+    "finacingAmount": 0,
+    "legalPerson": "Zhao API Testing",
+    "registedCapital": 0,
+    "registedAt": "2016-11-14T02:20:52.756Z",
+    "turnover": 0,
+    "registedNo": "Zhao API Testing",
+    "registedAuthority": "Zhao API Testing",
+    "parentId": 0,
+    "natureCode": 0,
+    "empScale": 0,
+    "empMeanSalary": 0,
+    "wxPublicNo": "Zhao API Testing",
+    "facebookUrl": "Zhao API Testing",
+    "linkedinUrl": "Zhao API Testing",
+    "weiboUrl": "Zhao API Testing",
+    "twitterUrl": "Zhao API Testing",
+    "createdAt": "2016-11-14T02:20:52.756Z",
+    "updatedAt": "2016-11-14T02:20:52.756Z",
+    "aliases": "Zhao API Testing",
+    "imgUrls": "Zhao API Testing",
+    "finacingDetail": "Zhao API Testing",
+    "branches": [
+      {}
+    ],
+    "natureCodeDict": {
+      "type": "Zhao API Testing",
+      "status": 0,
+      "title": "Zhao API Testing",
+      "code": 0,
+      "createdBy": 0,
+      "updatedBy": 0,
+      "id": 0,
+      "createdAt": "2016-11-14T02:20:52.756Z",
+      "updatedAt": "2016-11-14T02:20:52.756Z",
+      "notes": "Zhao API Testing",
+      "generated": 0
+    },
+    "empScaleDict": {
+      "type": "Zhao API Testing",
+      "status": 0,
+      "title": "Zhao API Testing",
+      "code": 0,
+      "createdBy": 0,
+      "updatedBy": 0,
+      "id": 0,
+      "createdAt": "2016-11-14T02:20:52.756Z",
+      "updatedAt": "2016-11-14T02:20:52.756Z",
+      "notes": "Zhao API Testing",
+      "generated": 0
+    },
+    "empMeanSalaryDict": {
+      "type": "Zhao API Testing",
+      "status": 0,
+      "title": "Zhao API Testing",
+      "code": 0,
+      "createdBy": 0,
+      "updatedBy": 0,
+      "id": 0,
+      "createdAt": "2016-11-14T02:20:52.756Z",
+      "updatedAt": "2016-11-14T02:20:52.756Z",
+      "notes": "Zhao API Testing",
+      "generated": 0
+    },
+    "industryDicts": [
+      {
+        "type": "Zhao API Testing",
+        "status": 0,
+        "title": "Zhao API Testing",
+        "code": 0,
+        "createdBy": 0,
+        "updatedBy": 0,
+        "id": 0,
+        "createdAt": "2016-11-14T02:20:52.756Z",
+        "updatedAt": "2016-11-14T02:20:52.756Z",
+        "notes": "Zhao API Testing",
+        "generated": 0
+      }
+    ],
+    "industrialModeDicts": [
+      {
+        "type": "Zhao API Testing",
+        "status": 0,
+        "title": "Zhao API Testing",
+        "code": 0,
+        "createdBy": 0,
+        "updatedBy": 0,
+        "id": 0,
+        "createdAt": "2016-11-14T02:20:52.756Z",
+        "updatedAt": "2016-11-14T02:20:52.756Z",
+        "notes": "Zhao API Testing",
+        "generated": 0
+      }
+    ],
+    "highlightDicts": [
+      {
+        "type": "Zhao API Testing",
+        "status": 0,
+        "title": "Zhao API Testing",
+        "code": 0,
+        "createdBy": 0,
+        "updatedBy": 0,
+        "id": 0,
+        "createdAt": "2016-11-14T02:20:52.756Z",
+        "updatedAt": "2016-11-14T02:20:52.756Z",
+        "notes": "Zhao API Testing",
+        "generated": 0
+      }
+    ],
+    "orgStocks": [
+      {
+        "createdBy": 0,
+        "updatedBy": 0,
+        "id": 0,
+        "createdAt": "2016-11-14T02:20:52.756Z",
+        "updatedAt": "2016-11-14T02:20:52.756Z",
+        "orgId": 0,
+        "stockExchange": 0,
+        "stockCode": "Zhao API Testing"
+      }
+    ],
+    "orgBrands": [
+      {
+        "description": "Zhao API Testing",
+        "title": "Zhao API Testing",
+        "createdBy": 0,
+        "updatedBy": 0,
+        "id": 0,
+        "siteUrl": "Zhao API Testing",
+        "createdAt": "2016-11-14T02:20:52.756Z",
+        "updatedAt": "2016-11-14T02:20:52.756Z",
+        "orgId": 0,
+        "imgUrl": "Zhao API Testing",
+        "trademark": "Zhao API Testing"
+      }
+    ],
+    "orgContactWays": [
+      {
+        "createdBy": 0,
+        "updatedBy": 0,
+        "id": 0,
+        "createdAt": "2016-11-14T02:20:52.756Z",
+        "updatedAt": "2016-11-14T02:20:52.756Z",
+        "createdByAccount": {
+          "password": "Zhao API Testing",
+          "status": 0,
+          "roles": [
+            "Zhao API Testing"
+          ],
+          "email": "Zhao API Testing",
+          "chineseName": "Zhao API Testing",
+          "englishName": "Zhao API Testing",
+          "nickname": "Zhao API Testing",
+          "createdBy": 0,
+          "updatedBy": 0,
+          "mobile": "Zhao API Testing",
+          "passwordReset": 0,
+          "resetPasswordAt": "2016-11-14T02:20:52.756Z",
+          "username": "Zhao API Testing",
+          "id": 0,
+          "createdAt": "2016-11-14T02:20:52.757Z",
+          "updatedAt": "2016-11-14T02:20:52.757Z",
+          "latestLoginAt": "2016-11-14T02:20:52.757Z",
+          "latestLoginIp": "Zhao API Testing",
+          "loginFailTimes": 0,
+          "permissions": [
+            {
+              "actionCode": "Zhao API Testing",
+              "resType": "Zhao API Testing",
+              "resId": 0,
+              "accessLevel": 0
+            }
+          ]
+        },
+        "orgId": 0,
+        "addressId": 0,
+        "faxNumber": "Zhao API Testing",
+        "phoneNumber": "Zhao API Testing",
+        "address": {
+          "location": {
+            "type": "Zhao API Testing",
+            "level": 0,
+            "code": 0,
+            "hot": 0,
+            "createdBy": 0,
+            "updatedBy": 0,
+            "id": 0,
+            "createdAt": "2016-11-14T02:20:52.757Z",
+            "updatedAt": "2016-11-14T02:20:52.757Z",
+            "lat": 0,
+            "lng": 0,
+            "locationType": "DISTRICT",
+            "children": [
+              {}
+            ],
+            "parentCode": 0,
+            "name": "Zhao API Testing",
+            "parent": {}
+          },
+          "id": 0,
+          "createdAt": "2016-11-14T02:20:52.757Z",
+          "updatedAt": "2016-11-14T02:20:52.757Z",
+          "locationId": 0,
+          "detail": "Zhao API Testing",
+          "lat": 0,
+          "lng": 0
+        }
+      }
+    ],
+    "orgHistories": [
+      {
+        "description": "Zhao API Testing",
+        "title": "Zhao API Testing",
+        "createdBy": 0,
+        "updatedBy": 0,
+        "id": 0,
+        "createdAt": "2016-11-14T02:20:52.757Z",
+        "updatedAt": "2016-11-14T02:20:52.757Z",
+        "orgId": 0,
+        "timeAt": "2016-11-14T02:20:52.757Z",
+        "linkUrl": "Zhao API Testing"
+      }
+    ],
+    "shareholders": [
+      {
+        "createdBy": 0,
+        "updatedBy": 0,
+        "id": 0,
+        "createdAt": "2016-11-14T02:20:52.757Z",
+        "updatedAt": "2016-11-14T02:20:52.757Z",
+        "orgId": 0,
+        "investAmount": 0,
+        "investDetail": "Zhao API Testing",
+        "holderId": 0,
+        "holdRate": 0
+      }
+    ],
+    "shareholdings": [
+      {
+        "createdBy": 0,
+        "updatedBy": 0,
+        "id": 0,
+        "createdAt": "2016-11-14T02:20:52.757Z",
+        "updatedAt": "2016-11-14T02:20:52.757Z",
+        "orgId": 0,
+        "investAmount": 0,
+        "investDetail": "Zhao API Testing",
+        "holderId": 0,
+        "holdRate": 0
+      }
+    ],
+    "createdByAccount": {
+      "password": "Zhao API Testing",
+      "status": 0,
+      "roles": [
+        "Zhao API Testing"
+      ],
+      "email": "Zhao API Testing",
+      "chineseName": "Zhao API Testing",
+      "englishName": "Zhao API Testing",
+      "nickname": "Zhao API Testing",
+      "createdBy": 0,
+      "updatedBy": 0,
+      "mobile": "Zhao API Testing",
+      "passwordReset": 0,
+      "resetPasswordAt": "2016-11-14T02:20:52.757Z",
+      "username": "Zhao API Testing",
+      "id": 0,
+      "createdAt": "2016-11-14T02:20:52.757Z",
+      "updatedAt": "2016-11-14T02:20:52.757Z",
+      "latestLoginAt": "2016-11-14T02:20:52.757Z",
+      "latestLoginIp": "Zhao API Testing",
+      "loginFailTimes": 0,
+      "permissions": [
+        {
+          "actionCode": "Zhao API Testing",
+          "resType": "Zhao API Testing",
+          "resId": 0,
+          "accessLevel": 0
+        }
+      ]
+    },
+    "updatedByAccount": {
+      "password": "Zhao API Testing",
+      "status": 0,
+      "roles": [
+        "Zhao API Testing"
+      ],
+      "email": "Zhao API Testing",
+      "chineseName": "Zhao API Testing",
+      "englishName": "Zhao API Testing",
+      "nickname": "Zhao API Testing",
+      "createdBy": 0,
+      "updatedBy": 0,
+      "mobile": "Zhao API Testing",
+      "passwordReset": 0,
+      "resetPasswordAt": "2016-11-14T02:20:52.757Z",
+      "username": "Zhao API Testing",
+      "id": 0,
+      "createdAt": "2016-11-14T02:20:52.757Z",
+      "updatedAt": "2016-11-14T02:20:52.757Z",
+      "latestLoginAt": "2016-11-14T02:20:52.757Z",
+      "latestLoginIp": "Zhao API Testing",
+      "loginFailTimes": 0,
+      "permissions": [
+        {
+          "actionCode": "Zhao API Testing",
+          "resType": "Zhao API Testing",
+          "resId": 0,
+          "accessLevel": 0
+        }
+      ]
+    },
+    "name": "Zhao API Testing",
+    "parent": {}
+  },
+  "feeMode": 0,
+  "feeScale": 0,
+  "headcount": 0,
+  "forecastTurnover": 0,
+  "salaryLower": 0,
+  "salaryUpper": 0,
+  "signedContractAt": "2016-11-14T02:20:52.757Z",
+  "warrantyPeriod": 0,
+  "expectedStartAt": "2016-11-14T02:20:52.757Z",
+  "expectedStartDays": 0,
+  "probationDays": 0,
+  "paybackDays": 0,
+  "startedAt": "2016-11-14T02:20:52.757Z",
+  "endedAt": "2016-11-14T02:20:52.757Z",
+  "jobDuty": "Zhao API Testing",
+  "jobRequirement": "Zhao API Testing",
+  "jobAnalysisId": 0,
+  "contactIds": [
+    0
+  ],
+  "locationIds": [
+    0
+  ],
+  "workYearsLower": 0,
+  "workYearsUpper": 0,
+  "industrialCodes": [
+    0
+  ],
+  "industrialModeCodes": [
+    0
+  ],
+  "targetOrgIds": [
+    0
+  ],
+  "targetOrgHighlightCodes": [
+    0
+  ],
+  "functionCodes": [
+    0
+  ],
+  "jobGradeCodes": [
+    0
+  ],
+  "skillCodes": [
+    0
+  ],
+  "competencyCodes": [
+    0
+  ],
+  "schoolGradeCodes": [
+    0
+  ],
+  "educationDegrees": [
+    0
+  ],
+  "schoolMajorCodes": [
+    0
+  ],
+  "certificateCodes": [
+    0
+  ],
+  "langSkillCodes": [
+    0
+  ],
+  "ageLower": 0,
+  "ageUpper": 0,
+  "genderCode": 0,
+  "jobHighlightCodes": [
+    0
+  ],
+  "bdId": 0,
+  "researcherIds": [
+    0
+  ],
+  "sortedBy": 0
+}

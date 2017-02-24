@@ -1,0 +1,9 @@
+{
+  "id":23,
+  "description": "Test for automation",
+  "source": 0,
+  "type": 0,
+  "reason": "Test for Automation",
+  "name": "Test company",
+  "simpleName": "TC"
+ }

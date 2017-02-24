@@ -1,0 +1,23 @@
+{
+	"id": "0",
+	"content": "",
+	"fullday": "0",
+	"startAt": "2016-11-02 17:00",
+	"endAt": "2016-11-02 17:00",
+	"remindType": "1",
+	"repeatType": "0",
+	"assignList": [
+		{
+			"accountId": "1"
+		}
+	],
+	"remark": [
+		{
+			"id": "0",
+			"remark": "",
+			"createdBy": "0",
+			"createdByAccount": "",
+			"updatedAt": "2016-11-02 17:00"
+		}
+	]
+}
